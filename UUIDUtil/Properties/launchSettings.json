@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "UUIDUtil": {
+      "commandName": "Project",
+      "commandLineArgs": "< \"F:\\backup_Mon11.09.2020_21.30.19.85\\worlds\\world_nether\\uid.dat\""
+    }
+  }
+}
