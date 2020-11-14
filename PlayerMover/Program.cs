@@ -30,6 +30,9 @@ namespace PlayerMover
 			[Option('n', "name", Required = true, HelpText = "Name of the world to move players to")]
 			public string ToWorldName { get; set; }
 
+			[Option(longName: "dim", Default = 0, HelpText = "The dimension number to set on players")]
+			public int Dimension { get; set; }
+
 			[Option('p', "pos", Required = true, HelpText = "Position to put players in new world")]
 			public string NewPosString { get; set; }
 
@@ -101,7 +104,7 @@ namespace PlayerMover
 			// log settings
 			Console.WriteLine($"Playerdata dir: {opts.DataDir}");
 			Console.WriteLine($"Moving players in world: {opts.FromWorldUUID}");
-			Console.WriteLine($"Moving players to world: {opts.ToWorldName}/{opts.ToWorldUUID} at ({opts.NewPos}) / ({opts.NewRot})");
+			Console.WriteLine($"Moving players to world: DIM: {opts.Dimension} {opts.ToWorldName}/{opts.ToWorldUUID} at ({opts.NewPos}) / ({opts.NewRot})");
 
 			// confirm
 			Console.WriteLine("\nPLEASE MAKE A BACKUP OF YOUR WORLD BEFORE RUNNING THIS SOFTWARE - PRESS Y TO CONTINUE, OR ANY OTHER KEY TO QUIT\n");

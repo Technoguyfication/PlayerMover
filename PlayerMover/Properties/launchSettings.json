@@ -2,7 +2,7 @@
   "profiles": {
     "PlayerMover": {
       "commandName": "Project",
-      "commandLineArgs": "-f c085d124-9bbb-4d08-928f-51a6e61e934d -t 486da277-4452-4916-8a4a-c7670abb43cb -n world -p -362.5,65,-488.5 -r -90,10.6 -d F:\\backup_Mon11.09.2020_21.30.19.85\\worlds\\world\\playerdata"
+      "commandLineArgs": "-f c085d124-9bbb-4d08-928f-51a6e61e934d -t 486da277-4452-4916-8a4a-c7670abb43cb -n world -p -362.5,65,-488.5 -r -90,10.6 -d F:\\backup_Mon11.09.2020_21.30.19.85\\worlds\\world\\playerdata --dim -1"
     }
   }
 }
